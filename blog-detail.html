@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Creative Eleven</title>
+
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Logo.png">
+    <!-- Custom css -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!--Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="fonts/font-awesome/css/all.css" rel="stylesheet">
+</head>
+
+<body class="bg">
+    <!-- Header -->
+
+    <header class="navbar navbar-expand-lg navbar-light">
+        <div class="logo">
+            <a href="index.html"><img src="images/Logo-White.png" class="img-fluid"></a>
+        </div>
+        <div id="menuBar" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+            <div class="overlay-content">
+                <a href="index.html">HOME</a>
+                <a href="project.html">OUR WORK</a>
+                <a href="blog.html">BLOG</a>
+                <a href="#">EXPLORATION</a>
+                <a href="about-us.html">ABOUT US</a>
+            </div>
+        </div>
+
+        <div class="burger">
+            <a href="#"><img src="images/Burger-White.png" onclick="openNav()"></a>
+        </div>
+    </header>
+
+    <!-- Section Banner Blog Detail -->
+
+    <section class="banner-blog-detail">
+        <div class="container">
+            <h1>Relative Layout and Linear Layout in Android Studio</h1>
+
+            <center>
+                <img src="images/Line Aksen 1.png" class="line-aksen-1">
+            </center>
+
+            <div class="row">
+                <ul class="menu-bottom">
+                    <li style="color: #FFF;">
+                        <img src="images/blog/yepta.png" class="img-fluid">Yepta Zagarino Samosir
+                    </li>
+                    <li>
+                        <p class="createdby-name">April 18, 2020</p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Blog Detail -->
+
+    <section class="blog-detail">
+        <div class="container">
+            <div class="row">
+                <div class="blog-detail-box">
+                    <img src="images/blog/xml.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <div class="blog-detail-content">
+            <p>In my first article, I will discuss layouts that are often used in android programming, namely Relative Layout and Linear Layout. Previously, we will discuss what is the layout. The layout is a display that regulates the layout of the components
+                that we will show to users. The components in question are like pictures, text, or other components. On Android Studio, processing layout views are created in .xml format.</p>
+            <p>What is the Relative Layout and Linear Layout? What's the difference between the two layouts?</p>
+
+            <ol>
+                <li>Relative Layout</li>
+                <p>What is the relative layout? Relative Layout is a layout arranged by displaying a widget inside it like a layer. Relative Layout is a relatively free layout so that widget can be arranged freely. A widget can be above or below another
+                    widget. So it can be interpreted that Relative Layout is the design of the appearance of the application with the layout of objects or components freely.</p>
+                <img src="images/blog/relative-layout.png" class="img-fluid img-detail-blog">
+
+                <p class="source-img">(Relative Layout|Source image: CodePolitan.com)</p>
+
+                <li>Linear Layout</li>
+                <p>What is a Linear Layout? Linear Layout is a layout in which components are arranged in one direction, namely horizontal or vertical. Linear Layout makes it easy to use but limits its flexibility. For applications that have a less complex
+                    design, the linear layout is very suitable for use.</p>
+                <img src="images/blog/linear-layout.png" class="img-fluid img-detail-blog">
+
+                <p class="source-img">(Linear Layout|Source image: CodePolitan.com)</p>
+
+                <p>The two types of layouts above are the layouts that are most often used to learn early about layouts on Android. There are several other layouts that are used to obtain a better appearance and I will discuss in the next article. Thanks.</p>
+
+                <i>You can read this article in Bahasa <i class="fa fa-long-arrow-alt-right"></i> </i>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Section More Blog -->
+
+    <section class="more-blog">
+        <div class="container">
+            <h3>More from creativeleven</h3>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 section-blog-more-box">
+                    <div class="service">
+                        <img src="images/blog/IMG.png" class="img-fluid image-more-blog">
+                    </div>
+                    <div class="service-box">
+                        <h4 class="text-blog-programming">Programming</h4>
+                        <h2>Relative Layout and Linear Layout in Android Studio</h2>
+
+                        <div class="row createdby-img">
+                            <div class="col-md-2">
+                                <img src="images/blog/yepta.png">
+                            </div>
+
+                            <div class="col-md-9">
+                                <p class="createdby-name">Yepta Zagarino Samosir</p>
+                                <p class="createdby-name">April 18, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 section-blog-more-box">
+                    <div class="service">
+                        <img src="images/blog/blog1.png" class="img-fluid image-more-blog">
+                    </div>
+                    <div class="service-box">
+                        <h4 class="text-blog-design">Design</h4>
+                        <h2>UI Design Animation using Invision</h2>
+
+                        <div class="row createdby-img">
+                            <div class="col-md-2">
+                                <img src="images/blog/ojak.png">
+                            </div>
+
+                            <div class="col-md-10">
+                                <p class="createdby-name">Ojak Hotmatua Sinaga</p>
+                                <p class="createdby-name">March 15, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 section-blog-more-box">
+                    <div class="service">
+                        <img src="images/blog/blog3.png" class="img-fluid image-more-blog">
+                    </div>
+                    <div class="service-box">
+                        <h4 class="text-blog-design">Design</h4>
+                        <h2>Tutorial UI Design Animation using Invision</h2>
+
+                        <div class="row createdby-img">
+                            <div class="col-md-2">
+                                <img src="images/blog/ojak.png">
+                            </div>
+
+                            <div class="col-md-10">
+                                <p class="createdby-name">Ojak Hotmatua Sinaga</p>
+                                <p class="createdby-name">March 15, 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer-page ">
+        <div class="row ">
+            <img src="images/Logo + Creativeleven.png " class="img-fluid footer-logo ">
+        </div>
+
+        <div class="menu-footer ">
+            <ul class="menu-bottom ">
+                <li><a href="# ">Home</a></li>
+                <li><a href="# ">Our Work</a></li>
+                <li><a href="# ">Blog</a></li>
+                <li><a href="# ">Exploration</a></li>
+                <li><a href="# ">About Us</a></li>
+            </ul>
+        </div>
+
+        <div class="detail-footer ">
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <p>2020 creativeleven All rights reserved</p>
+                </div>
+
+                <div class="col-md-4 ">
+                    <center>
+                        <ul class="social-footer-page ">
+                            <li><a href="# "><i class="fab fa-github "></i></a></li>
+                            <li><a href="# "><i class="fab fa-behance "></i></a></li>
+                            <li><a href="# "><i class="fab fa-facebook "></i></a></li>
+                            <li><a href="# "><i class="fab fa-instagram "></i></a></li>
+                        </ul>
+                    </center>
+                </div>
+
+                <div class="col-md-4 ">
+                    <p>from <b>ONDO PROJECT</b></p>
+                </div>
+            </div>
+        </div>
+        <img src="images/dots 3 x 3.png" class="dots-footer-page">
+    </footer>
+
+    <!-- Bootstrap Js -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
